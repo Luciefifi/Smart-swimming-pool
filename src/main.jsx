@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import App from './App';
+import Dashboard from './pages/Dashboard';
+import LoginPage from './pages/LoginPage';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+  <Dashboard/>
+  </React.StrictMode>
+);

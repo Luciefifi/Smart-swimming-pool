@@ -1,14 +1,12 @@
-
-
-function App() {
+// function App() {
  
 
-  return (
+//   return (
     
-      <div className="">
-        <p className=" bg-black text-white"> Hello</p>
-      </div>
-  )
-}
+//       <div className="">
+//         <p className=" bg-black text-white"> Hello</p>
+//       </div>
+//   )
+// }
 
-export default App
+// export default App
